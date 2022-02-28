@@ -48,3 +48,20 @@ git remote -v
 ```
 git push origin +master  
 ```
+
+commit 간에 파일의 바뀐 내용을 보여줌  
+```
+ git log -p
+```
+
+로그 읽는법  
++: 추가 또는 바뀐 내용,  
+-: 이전 내용  
+
+commit 간의 소스코드 차이를 보여줌   
+git diff 커밋ID1..커밋ID2  
+```
+ diff --git a/test.txt b/test.txt
+```
+ ;a는 이전 버전이라는 의미하고 b는 현재 버전을 의미
+ 
