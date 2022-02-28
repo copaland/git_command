@@ -1,4 +1,5 @@
-# hello-world
+# git 명령어
+
 github 공부용
 
 1. Git for Windows 설치<br/>
