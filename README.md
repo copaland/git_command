@@ -14,14 +14,20 @@ New Repository 생성
  Web상의 Git과 연결될 Local Folder에서 마우스 RMB <git bash here> <br/>
  ```
  $git init<br/>
+git branch -M main  
  $git remote add origin <repository address><br/>
  $git remote add origin https://github.com/copaland/hello-world.git<br/>
 ```
  > init ; 현재 폴더를 로컬 저장소로 지정
  > remote add ; 로컬 저장소와 원격 저장소를 연결시킨ek.
  > abc.git ; Github 저장소 주소  
- > origin ; 별칭 
- 
+ > origin ; 별칭
+
+> 브랜치 생성
+```
+ git branch -M main
+```
+
 4. Push전에 Pull<br/>
  ```
  **푸시**<br/>
