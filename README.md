@@ -73,5 +73,5 @@ git diff 커밋ID1..커밋ID2
  
 6. Run
 
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+  git config --global user.email "you@example.com"  
+  git config --global user.name "Your Name"  
